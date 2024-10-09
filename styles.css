@@ -1,0 +1,103 @@
+/* Reset to remove default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; /* Clean, modern sans-serif font */
+}
+
+body {
+  background-color: #f4f4f4; /* Light grey background for a clean look */
+  color: #333333;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #222222; /* Dark, modern text color */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700; /* Bold for strong header */
+}
+
+fieldset {
+  border: 2px solid #dddddd; /* Subtle, light border */
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px; /* Rounded corners for a modern touch */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+legend {
+  font-size: 18px;
+  color: #333333; /* Dark grey for subtlety */
+  font-weight: 500;
+}
+
+input[type="button"] {
+  background-color: #2196f3; /* Sleek blue button */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #1e88e5; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle hover effect */
+}
+
+div {
+  font-size: 18px;
+  color: #555555;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.content {
+  margin-top: 30px;
+  width: 80%;
+}
+
+tableau-viz {
+  border: none;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Modern soft shadow */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Modern responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  fieldset {
+    width: 95%;
+  }
+
+  input[type="button"] {
+    width: 100%;
+    padding: 10px;
+  }
+
+  div {
+    font-size: 16px;
+  }
+}
